@@ -3,11 +3,9 @@ import math
 import numpy as np
 import utils
 
+# Built on top of https://towardsdatascience.com/genetic-algorithm-implementation-in-python-5ab67bb124a6 
+
 class GeneticAlgorithm:
-    # This project is extended and a library called PyGAD is released to build the genetic algorithm.
-    # PyGAD documentation: https://pygad.readthedocs.io
-    # Install PyGAD: pip install pygad
-    # PyGAD source code at GitHub: https://github.com/ahmedfgad/GeneticAlgorithmPython
 
     def cal_pop_fitness(self, equation_inputs, pop):
         # Calculating the fitness value of each solution in the current population.
